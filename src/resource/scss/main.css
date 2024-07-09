@@ -5,6 +5,12 @@
   gap: 5px;
 }
 
+.eventThumbnail {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 295px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -37,6 +43,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
+  max-width: 1920px;
+  margin: 0 auto;
   line-height: 1;
 }
 
@@ -57,4 +65,8 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.altText {
+  visibility: hidden;
 }/*# sourceMappingURL=main.css.map */

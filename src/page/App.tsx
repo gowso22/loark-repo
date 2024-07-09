@@ -1,3 +1,4 @@
+import Event from "../component/Event";
 import Notice from "../component/Notice";
 import "../resource/scss/main.scss";
 
@@ -7,6 +8,7 @@ function App() {
     <>
 			<div>
 				<Notice/>
+        <Event/>
 			</div>
     </>
   );
