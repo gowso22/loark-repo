@@ -26,3 +26,10 @@ export const fetchAbyss = async () => {
 
   return response.data;
 };
+
+// 대아름 검색
+export const fetchProfile = async () => {
+  const response = await instance.get(`/armories/characters/단브커/profiles`);
+
+  return response.data;
+};
