@@ -76,3 +76,13 @@ export interface IProfile {
   ItemAvgLevel: number;
   ItemMaxLevel: number;
 }
+
+export interface IEquipment{
+  
+    Type: string;
+    Name: string;
+    Icon: string;
+    Grade: string;
+    Tooltip: string;
+  
+}

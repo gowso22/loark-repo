@@ -1,7 +1,7 @@
 import { useQuery } from "react-query";
 import { fetchProfile } from "../api/api";
 import { IProfile } from "../interface/amorises";
-import sanitizeHtml from "sanitize-html";
+
 
 const Profile = () => {
   const { data } = useQuery<IProfile>("profile", fetchProfile);
@@ -16,6 +16,7 @@ const Profile = () => {
 
   return (
     <>
+      <div>대아름 profile</div>
       {data && (
         <div>
           <img src={data.CharacterImage} />

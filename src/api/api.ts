@@ -27,9 +27,17 @@ export const fetchAbyss = async () => {
   return response.data;
 };
 
-// 대아름 검색
+// profile
 export const fetchProfile = async () => {
-  const response = await instance.get(`/armories/characters/단브커/profiles`);
+  const response = await instance.get(`/armories/characters/대아름/profiles`);
 
   return response.data;
 };
+
+// equipment
+export const fetchEquipment = async () => {
+  const response = await instance.get(`/armories/characters/대아름/equipment`);
+
+  return response.data;
+};
+
