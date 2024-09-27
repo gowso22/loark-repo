@@ -1,4 +1,4 @@
-import Equip from "../component/Equip";
+import Equip from "../component/equipment/Equip";
 import Profile from "../component/Profile";
 
 const SearchResult = () => {
@@ -6,8 +6,8 @@ const SearchResult = () => {
     <>
       <div>
         <Profile />
-        <br/>
-        <Equip/>
+        <br />
+        <Equip />
       </div>
     </>
   );
