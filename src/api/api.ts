@@ -50,9 +50,11 @@ export const fetchWeaponTooltip = async () => {
   return tip;
 };
 
-// 무기 툴팁
+// 투구 툴팁
 export const fetchHelmetTooltip = async () => {
-  const response = await instance.get(`/armories/characters/대호카/equipment`);
+  const response = await instance.get(
+    `/armories/characters/돌아오는날/equipment`
+  );
 
   const tip = await response.data[1].Tooltip;
 
